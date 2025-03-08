@@ -1,4 +1,5 @@
-from subprocess import Popen, PIPE, signal
+import signal
+from subprocess import Popen, PIPE
 from json import dump
 
 import time

@@ -10,7 +10,7 @@ class RaftMessageQueueClient:
         Initialize the client with the URL of a server node
         
         Args:
-            server_url: URL of a server node (e.g., "http://127.0.0.1:5000")
+            server_url: URL of a server node
         """
         self.server_url = server_url.rstrip('/')
         self.leader_url = None

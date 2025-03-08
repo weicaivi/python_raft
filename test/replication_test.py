@@ -1,4 +1,4 @@
-from test_utils import Swarm, Node, LEADER, FOLLOWER, CANDIDATE
+from .test_utils import Swarm, Node, LEADER, FOLLOWER, CANDIDATE
 import pytest
 import time
 import requests

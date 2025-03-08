@@ -1,4 +1,4 @@
-from test_utils import Swarm, Node
+from .test_utils import Swarm, Node
 
 import pytest
 import time
